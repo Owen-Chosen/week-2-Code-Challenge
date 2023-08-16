@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guesser</title>
+    <link rel = "icon" href = "https://th.bing.com/th/id/OIP.WeGG690K-E-jWkX2oPDJAwHaHa?pid=ImgDet&rs=1" type = "image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div id="start-Page" class="hide-intro-page basic-layout">
+            <img id="head-image" src="https://th.bing.com/th/id/OIP.WeGG690K-E-jWkX2oPDJAwHaHa?pid=ImgDet&rs=1" alt="">
+            <h3 id="intro-instruct">Tell Your NAME - Start the GAME</h3>
+            <input type="text" id="enter-name" placeholder="">
+            <button id="starGame-button"> START GAME </button>
+        </div>
+        <div id="gamePage" class="hide-game-item basic-layout">
+            <h1 id="welcome-note">WELCOME, OWEN</h1>
+            <img id="image-2" src="https://image.pngaaa.com/493/4196493-middle.png" alt="">
+            <h1 id="result" class="h1-page-2">Hurray!! You passed</h1>
+            <div id="letters">
+                <ul id="list-of-letters">
+                    <li id="1">c</li>
+                    <li id="2">a</li>
+                    <li id="3">t</li>
+                </ul>
+            </div>
+            <h1 id="hint" class="h1-page-2">hint: Apart of a cloth</h1>
+            <form id="input-letter">
+                <input id="letter-guessed" type="text">
+                <input id="guess-button" type="submit" value="GUESS">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

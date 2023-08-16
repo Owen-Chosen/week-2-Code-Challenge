@@ -1,0 +1,152 @@
+html {
+    font-size: 62.5%;
+}
+
+#container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-family: monospace;
+    /* background: rgb(238, 235, 185); */
+}
+
+.basic-layout {
+    margin-top: 11rem;
+    margin-left: 55rem;
+    width: 70rem;
+    height: 70rem;
+    background: rgb(61, 135, 205);
+    background-size: cover;
+    border: 2px solid rgb(61, 135, 205);
+    border-radius: 2rem;
+}
+
+#gamePage {
+    position: absolute;
+    top: 0;
+    left: 0rem;
+    background: rgb(75, 147, 151);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#head-image {
+    width: 70rem;
+    height: 65rem;
+    border-radius: 2rem 2rem 0 0;
+}
+#intro-instruct {
+    position: absolute;
+    top: 65rem;
+    left: 75rem;
+    letter-spacing: 0.3rem;
+    text-decoration-color: rgb(61, 135, 205);
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: medium;
+    color: rgb(61, 135, 205);
+}
+
+#enter-name {
+    position: absolute;
+    top: 70rem;
+    left: 80rem;
+    width: 20rem; height: 1rem;
+    border-radius: 1rem;
+    border: .6px solid rgb(162, 167, 172);
+    padding: 1rem;
+}
+
+#starGame-button {
+    position: relative;
+    top: 1rem; left: 27.5rem;
+    width: 17rem; height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    letter-spacing: 0.3rem;
+    text-decoration-color: rgb(61, 135, 205);
+    font-style: oblique;
+    font-weight: bold;
+    box-shadow: 1rem;
+}
+
+#welcome-note {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Dancing Script', cursive;
+    color: antiquewhite;
+    letter-spacing: .7rem;
+}
+
+#image-2 {
+    margin-top: 1.6rem;
+    width: 70rem;
+    height: 25rem;
+}
+
+ul {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+li {
+    display: inline-block;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bold;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 5.5rem; height: 5.5rem;
+    margin-right: 1.5rem;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 2px 2px rgb(59, 61, 63);
+
+}
+
+#letter-guessed {
+    width: 7rem; height: 5rem;
+    border: none;
+    border-radius: .5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.h1-page-2 {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 4rem;
+}
+
+.hide-intro-page {
+    visibility: hidden;
+}
+
+#guess-button {
+    width: 15rem; height: 4rem;
+    border-radius: 1rem;
+    border: none;
+    letter-spacing: 0.5rem;
+    font-style: oblique;
+    font-weight: bold;
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(180, 235, 232);
+    box-shadow: 0px 0px 2px 2px rgb(59, 61, 63);
+}
+
+/* .hide-game-item {
+    visibility: hidden;
+} */
